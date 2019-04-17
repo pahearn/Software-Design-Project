@@ -96,29 +96,6 @@ int main(){
     cout<<"\nAdding union elements:"<<endl;
 	unionString = alphaSet.unionOfTwoSets(vowelSet);
 	unionString.print();
-
-
-
-	cout<< "\nTesting of sizeOfSet, removeByPosition, removeByValue and emptySet: "<<endl;
-	
-	cout<< "\nThe current size is: " << mySet.sizeOfSet()<<endl;
-	mySet.print();
-	
-	mySet.removeByValue(3);
-	cout<< "\nThe current size is: " << mySet.sizeOfSet()<<endl;
-	mySet.print();
-	
-	mySet.removeByPosition(8);
-	cout<< "\nThe current size is: " << mySet.sizeOfSet()<<endl;
-	mySet.print();
-	
-	mySet.emptySet();
-	cout<< "\nThe current size is: " << mySet.sizeOfSet()<<endl;
-	mySet.print();
-	
-	
-	
-	
     
 }
 	
